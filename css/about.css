@@ -1,0 +1,36 @@
+.video_contanier {
+    width: 100%;
+    height: 95vh;
+}
+video {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 5vh;
+    object-fit: cover;
+}
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.contact {
+    color: aliceblue;
+    width: 20%;
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 1.5;
+    transition: 0.4s;
+}
+.contact p {
+    transition: 0.4s;
+}
+.contact p:hover {
+    color: blue;
+}

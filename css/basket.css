@@ -1,0 +1,82 @@
+.bascet_section {
+    position: relative;
+    top: 70px;
+}
+
+.product_bascet {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.check {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    height: 15vh;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.check:nth-child(all){
+    width: 16%;
+}
+.check span:nth-child(5) {
+    color: red;
+}
+
+.bas_img {
+    width: 10%;
+    object-fit: contain;
+    height: 12vh;
+}
+.buttons_score {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 5vh;
+}
+.check .del_but {
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+    width: 60%;
+}
+
+.del_but:hover {
+    background-color: rgb(158, 0, 0);
+    transform: scale(0.93);
+    box-shadow: 0 0 8px red;
+}
+
+.minus_but {
+    width: 30%;
+    padding: 0.5rem;
+    background-color: rgb(0, 42, 255);
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.minus_but:hover {
+    background-color: rgb(7, 7, 182);
+    transform: scale(0.93);
+    box-shadow: 0 0 8px blue;
+}
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: none;
+}

@@ -1,0 +1,59 @@
+/* Part Section. */
+.ice_section {
+    background-color: #F15BB5;
+    height: 90vh;
+    position: relative;
+    top: 10vh;  
+}
+
+.ice_section .contanier {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ice_section_img {
+    width: 40%;
+}
+
+.ice_section_text {
+    width: 60%;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 25vh;
+    font-weight: 100;
+    color: black;
+}
+
+button {
+    border: 3px solid black;
+    padding: 0.5rem;
+    background: none;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button a,
+button i {
+    color: black;
+}
+
+.cake {
+    background-color: #FEE440;
+}
+
+.drink {
+    background-color: #9B5DE5;
+    height: 100vh;
+}
+
