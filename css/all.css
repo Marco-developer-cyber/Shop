@@ -47,12 +47,15 @@ html {
     padding-left: 30px;
 }
 
-#display_menu_child_ul li a {
+ a {
     text-decoration: none;
     color: white;
     transition: 0.3s;
 }
-
+.active {
+    color: #600fff;
+    font-weight: bold;
+}
 #display_menu_child_ul li a:hover {
     text-decoration: underline 2px white;
     color: rgb(101, 1, 195);
